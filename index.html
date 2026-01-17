@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="nameModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Please enter your name to continue:</p>
+            <input type="text" id="userName" placeholder="Enter your name..." autofocus>
+            <button id="submitName">Continue</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="navbar">
+            <a href="#home" class="logo">Portofolio</a>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi (name)!</h1>
+                <p>I am a passionate Informatics student with a deep interest in building functional and aesthetic web applications. I love solving complex problems and continuous learning in the world of technology.</p>
+                <p class="highlight">Web Enthusiast</p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Profile" class="profile-img">
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skills-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>MySQL, Python</p>
+                </div>
+                <div class="skills-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Canva, Figma</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Zyyuvk, All rights reserved.</p>
+            <div class="social-link">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
